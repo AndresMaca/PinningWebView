@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">eltiempo.com</domain>
+        <domain includeSubdomains="true">translate.google.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">PqCoZCuhFTIXfSUdcRbrWZ0uVP3y9Md2iqa4CJCl63w=</pin>
+            <pin digest="SHA-256">HBU+Ah0FIWq2Tnd1rk6jyOVpf3NrQ8saudE3KsjjY7Y=</pin>
+
+        </pin-set>
+    </domain-config>
+</network-security-config>
