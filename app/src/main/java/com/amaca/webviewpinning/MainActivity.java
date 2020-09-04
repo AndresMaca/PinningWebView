@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         });
         webView.getSettings().setJavaScriptEnabled(true);
 
-        String urlComplete = "https://www.eltiempo.com";
+        String urlComplete = "https://www.adidas.co";
         webView.loadUrl(urlComplete);
     }
 }

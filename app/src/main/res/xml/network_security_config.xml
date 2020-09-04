@@ -5,11 +5,11 @@
         <domain includeSubdomains="true">127.0.0.1</domain>
     </domain-config>
     <domain-config cleartextTrafficPermitted="false">
-        <domain includeSubdomains="true">eltiempo.com</domain>
-        <domain includeSubdomains="true">translate.google.com</domain>
+        <domain includeSubdomains="true">adidas.co</domain>
+        <domain includeSubdomains="true">stackoverflow.com</domain>
         <pin-set>
-            <pin digest="SHA-256">PqCoZCuhFTIXfSUdcRbrWZ0uVP3y9Md2iqa4CJCl63w=</pin>
-            <pin digest="SHA-256">HBU+Ah0FIWq2Tnd1rk6jyOVpf3NrQ8saudE3KsjjY7Y=</pin>
+            <pin digest="SHA-256">yDsbCYJ0F187m+qNmGs4YO3n8WZKwvhFFpitCGucO34=</pin>
+            <pin digest="SHA-256">QWJTFPdyOoMz8U1yFCqsl+ngDjzjCpIQD3Wl6JvYSAc=</pin>
 
         </pin-set>
     </domain-config>
